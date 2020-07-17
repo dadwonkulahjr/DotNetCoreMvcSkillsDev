@@ -1,0 +1,17 @@
+﻿@model HomeDetailViewModel
+@{
+    ViewBag.Title = "Employee Details";
+}
+
+<h3>@Model.PageTitle</h3>
+
+<div>
+    Name: @Model.Employee.Name
+    <br />
+    Department:@Model.Employee.Department
+    <br/>
+    Email:@Model.Employee.Email
+</div>
+@section Scripts{
+<script src="~/js/customScript.js"></script>
+}
